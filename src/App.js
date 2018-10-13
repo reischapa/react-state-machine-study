@@ -69,7 +69,7 @@ export default class App extends Component {
     }
   }
 
-  updateStateFromAppState() {
+  updateStateFromAppStateTransitions() {
     this.setState(oldState => {
       let state = Object.assign({}, oldState);
       let updatedState = false;
@@ -141,7 +141,7 @@ export default class App extends Component {
   }
 
   render() {
-    this.updateStateFromAppState();
+    this.updateStateFromAppStateTransitions();
     /*
     const gifComponent = (
       <video 
