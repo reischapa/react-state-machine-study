@@ -8,7 +8,7 @@ const appStates = {
   FEEDBACK: 'FEEDBACK'
 };
 
-const kleeneStateName = 'ALL';
+const kleeneStateName = 'ANY';
 
 export default class App extends Component {
   constructor(props) {
